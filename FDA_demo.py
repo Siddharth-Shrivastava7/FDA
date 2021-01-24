@@ -5,6 +5,7 @@ import scipy.misc
 import os 
 from tqdm import tqdm
 
+# changed the code for applying fourier domain adapt to a set of images in a folder
 path_src="../../scratch/data/cityscapes/leftImg8bit/val"
 i = 1
 for root, dirs, files in os.walk(path_src):
